@@ -40,3 +40,6 @@ body {
   position:absolute;
   /*background-image: url("https://68.media.tumblr.com/0d29a110bbd89fface87d17f6dade085/tumblr_oof0gkLGUY1wnofxjo1_500.gif");*/
 }
+.switch{
+  border:none;
+}
