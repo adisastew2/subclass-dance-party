@@ -9,6 +9,15 @@ body{
 body, a:link, a:visited, a:active{
   color: lightblue;
 }
+body {
+	text-align: center;
+	background: url("http://www.simonfaithfull.org/wp-content/uploads/shy-df.jpg") no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	margin-top: 50px;
+}
 .title, .addDancerButton{
   padding:5px 12px;
   float:right;
@@ -24,4 +33,10 @@ body, a:link, a:visited, a:active{
   border:10px solid red;
   border-radius:10px;
   position:absolute;
+}
+.rick{
+  height: 200px;
+  width: 100px;
+  position:absolute;
+  /*background-image: url("https://68.media.tumblr.com/0d29a110bbd89fface87d17f6dade085/tumblr_oof0gkLGUY1wnofxjo1_500.gif");*/
 }
