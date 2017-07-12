@@ -22,12 +22,26 @@ $(document).ready(function() {
 
     // make a dancer with a random position
 
-    var dancer = dancerMakerFunction(
+    var dancer = new dancerMakerFunction(
       $('body').height() * Math.random(),
       $('body').width() * Math.random(),
       Math.random() * 1000
     );
     $('body').append(dancer.$node);
+
+    $('.switch').hover(function(event) {
+    
+      $(this).children().attr('src', 'http://static.tumblr.com/94bcbb49e3a55769de624972f77cd4e1/guhukug/oCHonphnc/tumblr_static_97469izt0r484wcokwgg8oc0g.gif');
+
+    }, function(event) {
+      $(this).children().attr('src', 'https://68.media.tumblr.com/0d29a110bbd89fface87d17f6dade085/tumblr_oof0gkLGUY1wnofxjo1_500.gif');
+    });
+    
   });
+
+
+  
+
+
 });
 
