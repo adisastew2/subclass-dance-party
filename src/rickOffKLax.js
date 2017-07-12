@@ -1,7 +1,7 @@
 var rickSanchez = function(top, left, timeBetweenSteps) {
   
   makeDancer.call(this, top, left, timeBetweenSteps);
-  this.$node = $('<span class="switch"> <img class="rick" src= "https://68.media.tumblr.com/0d29a110bbd89fface87d17f6dade085/tumblr_oof0gkLGUY1wnofxjo1_500.gif"> </img> </span>');
+  this.$node = $('<span class="dancer switch"> <img class="rick" src= "https://68.media.tumblr.com/0d29a110bbd89fface87d17f6dade085/tumblr_oof0gkLGUY1wnofxjo1_500.gif"> </img> </span>');
   this.step();
   this.setPosition(top, left);
 
